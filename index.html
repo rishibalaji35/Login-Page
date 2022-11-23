@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Login Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-left">
+        <div class="login-header">
+          <h1>Welcome to our Application</h1>
+          <p>Please login to use the platform</p>
+        </div>
+        <form class="login-form" autocomplete="off">
+          <div class="login-form-content">
+            <div class="form-item">
+              <label for="email">Enter Email Address</label>
+              <input type="text" id="email" />
+            </div>
+            <div class="form-item">
+              <label for="password">Enter Password</label>
+              <input type="password" id="password" />
+            </div>
+            <div class="form-item">
+              <div class="checkbox">
+                <input type="checkbox" id="rememberMeCheckbox" checked />
+                <label for="rememberme" class="checkboxLabel">Remember me</label>
+              </div>
+            </div>
+            <button type="submit">Sign In</button>
+          </div>
+          <div class="login-form-footer">
+            <a href="#">
+              <img
+                width="30"
+                src="./pictures/f_logo_RGB-Black_58.png"
+                alt="FaceBook logo"
+              />
+              FaceBook Login
+            </a>
+
+            <a href="#">
+              <img width="30" src="pictures/Google__G__Logo.png" alt="Google Logo" />
+              Google Login
+            </a>
+          </div>
+        </form>
+      </div>
+	  <div class="login-right">
+		<img class="image" src="pictures/image.svg">
+	  </div>
+    </div>
+  </body>
+</html>
